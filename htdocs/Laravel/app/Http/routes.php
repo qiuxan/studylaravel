@@ -13,4 +13,18 @@
 
 Route::get('/', function () {
     return view('welcome');
+    //return "hello world";
+});
+
+Route::get('/about', function () {
+    return "about page";
+});
+
+Route::get('/contact', function () {
+    return "contact page";
+});
+
+
+Route::get('/post/{id}/{name}', function ($id,$name) {
+    return "post number ".$id." ".$name;
 });
