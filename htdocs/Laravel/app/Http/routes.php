@@ -11,28 +11,36 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-    //return "hello world";
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//    //return "hello world";
+//});
+//
+//Route::get('/about', function () {
+//    return "about page";
+//});
+//
+//Route::get('/contact', function () {
+//    return "contact page";
+//});
+//
+//
+//Route::get('/post/{id}/{name}', function ($id,$name) {
+//    return "post number ".$id." ".$name;
+//});
+//
+//Route::get('admin/post/expample', array('as'=>'admin.home', function(){
+//
+//
+//    $url=route('admin.home');
+//    return "this is ". $url;
+//
+//}));
 
-Route::get('/about', function () {
-    return "about page";
-});
-
-Route::get('/contact', function () {
-    return "contact page";
-});
 
 
-Route::get('/post/{id}/{name}', function ($id,$name) {
-    return "post number ".$id." ".$name;
-});
 
-Route::get('admin/post/expample', array('as'=>'admin.home', function(){
+//Route::get('/post/{id}', 'PostsController@index');
 
 
-    $url=route('admin.home');
-    return "this is ". $url;
-
-}));
+Route::resource('posts','PostsController');
