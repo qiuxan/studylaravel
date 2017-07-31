@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Laravel</title>
+@extends('layout.app')
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
+    <h1>Post page id {{$id}} name{{$name}} password{{$pw}}</h1>
 
 
-</head>
-<body>
-<div class="container">
-    <h1>Post {{$id}} {{$name}} {{$pw}}</h1>
-
-</div>
-</body>
-</html>
+@endsection
