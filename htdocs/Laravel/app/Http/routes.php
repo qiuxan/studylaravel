@@ -44,3 +44,7 @@
 
 
 Route::resource('posts','PostsController');
+
+Route::get('/contact','PostsController@contact');
+
+Route::get('/post/{id}/{name}/{pw}','PostsController@show_post');
