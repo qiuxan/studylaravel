@@ -11,10 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//    //return "hello world";
-//});
 //
 //Route::get('/about', function () {
 //    return "about page";
@@ -41,6 +37,13 @@
 
 
 //Route::get('/post/{id}', 'PostsController@index');
+
+
+
+Route::get('/', function () {
+    return view('welcome');
+    //return "hello world";
+});
 
 
 Route::resource('posts','PostsController');
