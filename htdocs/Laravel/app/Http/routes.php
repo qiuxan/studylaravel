@@ -39,15 +39,33 @@
 //Route::get('/post/{id}', 'PostsController@index');
 
 
+use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     return view('welcome');
     //return "hello world";
 });
+//
+//
+//Route::resource('posts','PostsController');
+//
+//Route::get('/contact','PostsController@contact');
+//
+//Route::get('/post/{id}/{name}/{pw}','PostsController@show_post');
 
 
-Route::resource('posts','PostsController');
+/*application routes*/
 
-Route::get('/contact','PostsController@contact');
 
-Route::get('/post/{id}/{name}/{pw}','PostsController@show_post');
+//Route::get('/insert',function(){
+//
+//    //DB::insert('insert into posts(title, content) values(?, ?)', ['PHP With Laravel', 'Laravel is the best thing that has happened to PHP']);
+//    DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+//});
+
+Route::get('/insert', function(){
+
+   DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+
+    return 'works';
+});
