@@ -71,10 +71,21 @@ Route::get('/', function () {
 
 //DATABASE Raw SQL Queries
 
-Route:get('/read', function(){
-    $results=DB::select('select * from posts where id=?',[1]);
+//Route:get('/read', function(){
+//    $results=DB::select('select * from posts where id=?',[1]);
+//
+//    //return $results;
+//    print_r($results);
+//
+//});
 
-    //return $results;
-    print_r($results);
+//Route::get('/update', function(){
+//
+//     $update= DB::update('update posts set title ="update title" where id=?',[1]);
+//     return $update;
+//});
 
+Route::get('/delete', function(){
+   $delete=DB::delete('delete from posts where id =?', [1]);
+   return $delete;
 });
