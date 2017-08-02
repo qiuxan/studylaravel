@@ -62,12 +62,13 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="1005">
+              <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
               <folding>
-                <marker date="1501672504000" expanded="true" signature="1260:1306" ph="insert into posts... " />
-                <marker date="1501672504000" expanded="true" signature="1404:1450" ph="insert into posts... " />
-                <marker date="1501672504000" expanded="true" signature="1587:1633" ph="insert into posts... " />
+                <marker date="1501678991000" expanded="true" signature="1237:1283" ph="insert into posts... " />
+                <marker date="1501678991000" expanded="true" signature="1383:1429" ph="insert into posts... " />
+                <marker date="1501678991000" expanded="true" signature="1576:1622" ph="insert into posts... " />
+                <marker date="1501678991000" expanded="true" signature="1818:1848" ph="select * fro... posts" />
               </folding>
             </state>
           </provider>
@@ -224,6 +225,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.SyntheticLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Laravel" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -360,12 +375,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500962584497</updated>
-      <workItem from="1500962594921" duration="20501000" />
+      <workItem from="1500962594921" duration="21561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20501000" />
+    <option name="totallyTimeSpent" value="21561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,12 +587,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="1005">
+          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
           <folding>
-            <marker date="1501672504000" expanded="true" signature="1260:1306" ph="insert into posts... " />
-            <marker date="1501672504000" expanded="true" signature="1404:1450" ph="insert into posts... " />
-            <marker date="1501672504000" expanded="true" signature="1587:1633" ph="insert into posts... " />
+            <marker date="1501678991000" expanded="true" signature="1237:1283" ph="insert into posts... " />
+            <marker date="1501678991000" expanded="true" signature="1383:1429" ph="insert into posts... " />
+            <marker date="1501678991000" expanded="true" signature="1576:1622" ph="insert into posts... " />
+            <marker date="1501678991000" expanded="true" signature="1818:1848" ph="select * fro... posts" />
           </folding>
         </state>
       </provider>

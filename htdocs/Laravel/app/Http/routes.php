@@ -39,7 +39,6 @@
 //Route::get('/post/{id}', 'PostsController@index');
 
 
-use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     return view('welcome');
@@ -54,18 +53,28 @@ Route::get('/', function () {
 //Route::get('/post/{id}/{name}/{pw}','PostsController@show_post');
 
 
-/*application routes*/
-
-
-//Route::get('/insert',function(){
+///*application routes*/
 //
-//    //DB::insert('insert into posts(title, content) values(?, ?)', ['PHP With Laravel', 'Laravel is the best thing that has happened to PHP']);
-//    DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+//
+////Route::get('/insert',function(){
+////
+////    //DB::insert('insert into posts(title, content) values(?, ?)', ['PHP With Laravel', 'Laravel is the best thing that has happened to PHP']);
+////    DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+////});
+//
+//Route::get('/insert', function(){
+//
+//   DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+//
+//    return 'works';
 //});
 
-Route::get('/insert', function(){
+//DATABASE Raw SQL Queries
 
-   DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+Route:get('/read', function(){
+    $results=DB::select('select * from posts where id=?',[1]);
 
-    return 'works';
+    //return $results;
+    print_r($results);
+
 });
