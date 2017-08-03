@@ -62,25 +62,26 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1151">
-              <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+            <state relative-caret-position="461">
+              <caret line="68" column="67" lean-forward="true" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
               <folding>
-                <marker date="1501680177000" expanded="true" signature="1237:1283" ph="insert into posts... " />
-                <marker date="1501680177000" expanded="true" signature="1383:1429" ph="insert into posts... " />
-                <marker date="1501680177000" expanded="true" signature="1576:1622" ph="insert into posts... " />
-                <marker date="1501680177000" expanded="true" signature="1822:1852" ph="select * fro... posts" />
-                <marker date="1501680177000" expanded="true" signature="1990:2039" ph="update posts... " />
-                <marker date="1501680177000" expanded="true" signature="2134:2163" ph="delete from " />
+                <element signature="e#22#407#0#PHP" expanded="false" />
+                <marker date="1501764740000" expanded="true" signature="1252:1298" ph="insert into posts... " />
+                <marker date="1501764740000" expanded="true" signature="1398:1444" ph="insert into posts... " />
+                <marker date="1501764740000" expanded="true" signature="1591:1637" ph="insert into posts... " />
+                <marker date="1501764740000" expanded="true" signature="1837:1867" ph="select * fro... posts" />
+                <marker date="1501764740000" expanded="true" signature="2005:2054" ph="update posts... " />
+                <marker date="1501764740000" expanded="true" signature="2153:2182" ph="delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env.example" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.example">
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -101,26 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
               <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017_08_01_041041_creat_posts_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2017_08_01_041041_creat_posts_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017_08_01_050938_add_is_admin_column_to_post_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2017_08_01_050938_add_is_admin_column_to_post_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -180,6 +161,7 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_08_01_041041_creat_posts_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_08_01_050938_add_is_admin_column_to_post_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
@@ -256,24 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,12 +341,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500962584497</updated>
-      <workItem from="1500962594921" duration="22733000" />
+      <workItem from="1500962594921" duration="24615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22733000" />
+    <option name="totallyTimeSpent" value="24615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -587,17 +543,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1151">
-          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        <state relative-caret-position="461">
+          <caret line="68" column="67" lean-forward="true" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
           <folding>
-            <marker date="1501680177000" expanded="true" signature="1237:1283" ph="insert into posts... " />
-            <marker date="1501680177000" expanded="true" signature="1383:1429" ph="insert into posts... " />
-            <marker date="1501680177000" expanded="true" signature="1576:1622" ph="insert into posts... " />
-            <marker date="1501680177000" expanded="true" signature="1822:1852" ph="select * fro... posts" />
-            <marker date="1501680177000" expanded="true" signature="1990:2039" ph="update posts... " />
-            <marker date="1501680177000" expanded="true" signature="2134:2163" ph="delete from " />
+            <element signature="e#22#407#0#PHP" expanded="false" />
+            <marker date="1501764740000" expanded="true" signature="1252:1298" ph="insert into posts... " />
+            <marker date="1501764740000" expanded="true" signature="1398:1444" ph="insert into posts... " />
+            <marker date="1501764740000" expanded="true" signature="1591:1637" ph="insert into posts... " />
+            <marker date="1501764740000" expanded="true" signature="1837:1867" ph="select * fro... posts" />
+            <marker date="1501764740000" expanded="true" signature="2005:2054" ph="update posts... " />
+            <marker date="1501764740000" expanded="true" signature="2153:2182" ph="delete from " />
           </folding>
         </state>
       </provider>

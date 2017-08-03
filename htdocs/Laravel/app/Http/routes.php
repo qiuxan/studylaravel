@@ -1,4 +1,6 @@
 <?php
+use App\Post;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -85,7 +87,27 @@ Route::get('/', function () {
 //     return $update;
 //});
 
-Route::get('/delete', function(){
-   $delete=DB::delete('delete from posts where id =?', [1]);
-   return $delete;
+//Route::get('/delete', function(){
+//   $delete=DB::delete('delete from posts where id =?', [1]);
+//   return $delete;
+//});
+
+//Route::get('/read', function(){
+//
+//    $posts=Post::all();
+//
+//    foreach ($posts as $post){
+//
+//        return $post->title;
+//    }
+//
+//});
+
+
+Route::get('/find', function(){
+
+    $post=Post::find(1);
+
+   return $post->title;
+
 });
