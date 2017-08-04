@@ -58,18 +58,18 @@ Route::get('/', function () {
 ///*application routes*/
 //
 //
-////Route::get('/insert',function(){
-////
-////    //DB::insert('insert into posts(title, content) values(?, ?)', ['PHP With Laravel', 'Laravel is the best thing that has happened to PHP']);
-////    DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
-////});
+//Route::get('/insert',function(){
 //
-//Route::get('/insert', function(){
-//
-//   DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
-//
-//    return 'works';
+//    //DB::insert('insert into posts(title, content) values(?, ?)', ['PHP With Laravel', 'Laravel is the best thing that has happened to PHP']);
+//    DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
 //});
+
+Route::get('/insert', function(){
+
+   DB::insert('insert into posts(title, content) values(?, ?)', ['PHP with Laravel', 'Laravel is the best thing that has happened to php']);
+
+    return 'works';
+});
 
 //DATABASE Raw SQL Queries
 
@@ -104,10 +104,63 @@ Route::get('/', function () {
 //});
 
 
-Route::get('/find', function(){
+//Route::get('/find', function(){
+//
+//    $post=Post::find(1);
+//
+//   return $post->title;
+//
+//});
 
-    $post=Post::find(1);
+//Route::get('/findwhere', function(){
+//
+//    $posts= Post::where('id',13)->orderBy('id','desc')->take(1)->get();
+//
+//    return $posts;
+//
+//});
+//
+//Route::get('/basicinsert',function(){
+//
+//   $post =new Post;
+//   $post->title='New Eloquent title insert';
+//   $post->content='new eloquent is really cool';
+//    $post->save();
+//});
 
-   return $post->title;
+
+//Route::get('/basicinsert2',function(){
+//
+//    $post =Post::find(1);
+//
+//    $post->title='New Eloquent title insert2';
+//    $post->content='new eloquent is really cool2';
+//    $post->save();
+//});
+
+//Route::get('/create',function(){
+//
+//    Post::create(['title'=>'the create method', 'content'=>'Wow I am learning']);
+//
+//});
+
+
+//Route::get('/update',function(){
+//
+//    Post::where('id',1 )-> where('is_admin',0)->update(['title'=>'New Php Title', 'content'=>'the new php content']);
+//
+//});
+//
+//Route::get('/delete',function(){
+//
+//    $post= Post::find(1);
+//
+//    $post->delete();
+//
+//});
+
+Route::get('/delete2',function(){
+
+    Post::destroy(13);
 
 });

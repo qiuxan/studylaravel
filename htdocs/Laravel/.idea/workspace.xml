@@ -62,16 +62,16 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="68" column="67" lean-forward="true" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+            <state relative-caret-position="1151">
+              <caret line="163" column="9" lean-forward="false" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
               <folding>
                 <element signature="e#22#407#0#PHP" expanded="false" />
-                <marker date="1501764740000" expanded="true" signature="1252:1298" ph="insert into posts... " />
-                <marker date="1501764740000" expanded="true" signature="1398:1444" ph="insert into posts... " />
-                <marker date="1501764740000" expanded="true" signature="1591:1637" ph="insert into posts... " />
-                <marker date="1501764740000" expanded="true" signature="1837:1867" ph="select * fro... posts" />
-                <marker date="1501764740000" expanded="true" signature="2005:2054" ph="update posts... " />
-                <marker date="1501764740000" expanded="true" signature="2153:2182" ph="delete from " />
+                <marker date="1501852331000" expanded="true" signature="1246:1292" ph="insert into posts... " />
+                <marker date="1501852331000" expanded="true" signature="1390:1436" ph="insert into posts... " />
+                <marker date="1501852331000" expanded="true" signature="1573:1619" ph="insert into posts... " />
+                <marker date="1501852331000" expanded="true" signature="1813:1843" ph="select * fro... posts" />
+                <marker date="1501852331000" expanded="true" signature="1981:2030" ph="update posts... " />
+                <marker date="1501852331000" expanded="true" signature="2129:2158" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -144,6 +144,7 @@
       <find>unix_socket</find>
       <find>$table</find>
       <find>integer</find>
+      <find>insert</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,6 +216,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="PHP Runtime" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.SyntheticLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.SyntheticLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -341,12 +360,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500962584497</updated>
-      <workItem from="1500962594921" duration="24615000" />
+      <workItem from="1500962594921" duration="29197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24615000" />
+    <option name="totallyTimeSpent" value="29197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,24 +572,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="68" column="67" lean-forward="true" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+        <state relative-caret-position="1151">
+          <caret line="163" column="9" lean-forward="false" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
           <folding>
             <element signature="e#22#407#0#PHP" expanded="false" />
-            <marker date="1501764740000" expanded="true" signature="1252:1298" ph="insert into posts... " />
-            <marker date="1501764740000" expanded="true" signature="1398:1444" ph="insert into posts... " />
-            <marker date="1501764740000" expanded="true" signature="1591:1637" ph="insert into posts... " />
-            <marker date="1501764740000" expanded="true" signature="1837:1867" ph="select * fro... posts" />
-            <marker date="1501764740000" expanded="true" signature="2005:2054" ph="update posts... " />
-            <marker date="1501764740000" expanded="true" signature="2153:2182" ph="delete from " />
+            <marker date="1501852331000" expanded="true" signature="1246:1292" ph="insert into posts... " />
+            <marker date="1501852331000" expanded="true" signature="1390:1436" ph="insert into posts... " />
+            <marker date="1501852331000" expanded="true" signature="1573:1619" ph="insert into posts... " />
+            <marker date="1501852331000" expanded="true" signature="1813:1843" ph="select * fro... posts" />
+            <marker date="1501852331000" expanded="true" signature="1981:2030" ph="update posts... " />
+            <marker date="1501852331000" expanded="true" signature="2129:2158" ph="delete from " />
           </folding>
         </state>
       </provider>
