@@ -138,11 +138,11 @@ Route::get('/insert', function(){
 //    $post->save();
 //});
 
-//Route::get('/create',function(){
-//
-//    Post::create(['title'=>'the create method', 'content'=>'Wow I am learning']);
-//
-//});
+Route::get('/create',function(){
+
+    Post::create(['title'=>'the create method', 'content'=>'Wow I am learning']);
+
+});
 
 
 //Route::get('/update',function(){
@@ -159,8 +159,32 @@ Route::get('/insert', function(){
 //
 //});
 
-Route::get('/delete2',function(){
+//Route::get('/delete2',function(){
+//
+//    Post::destroy([15,16]);
+//
+//});
 
-    Post::destroy(13);
+
+/*soft delete*/
+
+Route::get('/softdelete',function(){
+
+    Post::find(17)->delete();
+
+});
+
+Route::get('/readsoftdelete', function(){
+
+//    $post=Post::find(14);
+//    return $post;
+
+    $post=Post::withTrashed()->where('is_admin' ,0)->get();
+
+    return $post;
+
+//    $post=Post::onlyTrashed()->where('is_admin',0)->get();
+//
+//    return $post;
 
 });
