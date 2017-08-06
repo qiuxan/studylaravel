@@ -12,11 +12,17 @@ class Post extends Model
 //
 //    protected  $primaryKey='id';
     use SoftDeletes;
-    protected  $dates=['deleted_at'];
+    protected  $dates=[''];
     protected  $fillable=[
 
     'title',
     'content'
 
 ];
+
+    public function user(){
+
+        return $this->belongsTo('App\User');
+
+    }
 }

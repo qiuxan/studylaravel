@@ -212,11 +212,43 @@ Route::get('/softdelete',function(){
  * */
 
 /* one to one relationship*/
+//
+//Route::get('/user/{id}/post',function($id){
+//
+//
+//    Return User::find($id)->post;
+//
+//});
+//
+//Route::get('/post/{id}/user',function($id){
+//
+//    return Post::find($id)->user->name;
+//
+//});
 
-Route::get('/user/{id}/post',function($id){
+
+/* one to many relationship*/
+
+//Route::get('/posts',function (){
+//
+//    $user= User::find(1);
+//    foreach ($user->posts as $post){
+//        echo $post->title. "<br>";
+//    }
+//
+//
+//});
 
 
-    Return User::find($id)->post;
+/*Many to many relationship*/
+
+Route::get('/user/{id}/role',function($id){
+
+    $user =User::find($id)->roles()->orderBy('id','desc')->get();
+    return $user;
+
+//    foreach ($user->roles as $role){
+//        echo $role->name;
+//    }
 
 });
-
