@@ -50,8 +50,8 @@ class User extends Model implements AuthenticatableContract,
 
     public function roles(){
 
-        return $this->belongsToMany('App\Role');
-//        return $this->belongsToMany('App\Role','user_roles','user_id','role_id');// custom par
+        return $this->belongsToMany('App\Role')->withPivot('created_at');
+//        return $this->belongsToMany('App\Role','user_roles','user_id','role_id');// custom table name and columns names
     }
 
 }
