@@ -54,5 +54,12 @@ class User extends Model implements AuthenticatableContract,
 //        return $this->belongsToMany('App\Role','user_roles','user_id','role_id');// custom table name and columns names
     }
 
+    public  function photos(){
+
+        return $this->morphMany('App\Photo', 'imageable');
+
+
+    }
+
 }
 

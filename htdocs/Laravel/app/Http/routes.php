@@ -1,5 +1,8 @@
 <?php
+use App\Country;
+use App\Photo;
 use App\Post;
+use App\Tag;
 use App\User;
 
 /*
@@ -241,25 +244,60 @@ Route::get('/softdelete',function(){
 
 
 /*Many to many relationship*/
+//
 
-Route::get('/user/{id}/role',function($id){
 
-    $user =User::find($id)->roles()->orderBy('id','desc')->get();
-    return $user;
+/* Polymorphic relations*/
 
-//    foreach ($user->roles as $role){
-//        echo $role->name;
+//Route::get('user/photos',function(){
+//
+//    $user=User::find(1);
+//
+//    foreach ( $user->photos as $photo){
+//
+//        return $photo;
 //    }
+//
+//});
 
-});
+//Route::get('post/photos',function(){
+//
+//    $user=Post::find(1);
+//
+//    print_r($user);
+//
+//    foreach ( $user->photos as $photo){
+//
+//        echo $photo;
+//    }
+//
+//});
+//
+//Route::get('photo/{id}/post' , function($id){
+//
+//    $photo=Photo::findorFail($id);
+//
+//    return $photo->imageable;
+//
+//});
 
-/*Assessing the intermediate table /pivot*/
-Route::get('user/pivot',function(){
 
-    $user= User::find(1);
+/*Polymorphic Many to Many*/
+//
+//Route::get('/post/tag',function (){
+//
+//    $post =Post::find(1);
+//    foreach ($post->tags as $tag){
+//
+//        echo $tag->name;
+//    }
+//
+//});
 
-    foreach ($user->roles as $role){
-        echo $role->pivot->created_at;
-    }
+Route::get('/tag/post',function (){
+
+    $tag= Tag::find(2);
+
+   return $tag->posts;
 
 });
