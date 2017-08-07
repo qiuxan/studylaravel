@@ -49,7 +49,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="554">
@@ -88,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Tag.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -378,7 +378,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="SearchEverywhereHistoryKey" value="App\Tag&#9;null&#9;null&#10;App\Ta&#9;null&#9;null&#10;taggable_&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/database/migrations/2017_08_07_052429_create_taggables_table.php&#10;morphTo&#9;null&#9;null&#10;ha&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php&#10;hasOne&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php&#10;integer&#9;null&#9;null&#10;Blueprint&#9;null&#9;null&#10;posts&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/app/Http/routes.php&#10;App\Tag&#9;null&#9;null&#10;App\Ta&#9;null&#9;null&#10;taggable_&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/database/migrations/2017_08_07_052429_create_taggables_table.php&#10;morphTo&#9;null&#9;null&#10;ha&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php&#10;hasOne&#9;FILE&#9;file:///Users/xianqiu/Documents/laravel/htdocs/Laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php&#10;integer&#9;null&#9;null&#10;Blueprint&#9;null&#9;null&#10;posts&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -468,12 +468,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500962584497</updated>
-      <workItem from="1500962594921" duration="54237000" />
+      <workItem from="1500962594921" duration="54414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54237000" />
+    <option name="totallyTimeSpent" value="54414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,23 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="267" column="2" lean-forward="true" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#22#0#PHP" expanded="true" />
-            <element signature="e#80#465#0#PHP" expanded="false" />
-            <marker date="1502087749000" expanded="true" signature="1304:1350" ph="insert into posts... " />
-            <marker date="1502087749000" expanded="true" signature="1448:1494" ph="insert into posts... " />
-            <marker date="1502087749000" expanded="true" signature="1631:1677" ph="insert into posts... " />
-            <marker date="1502087749000" expanded="true" signature="1871:1901" ph="select * fro... posts" />
-            <marker date="1502087749000" expanded="true" signature="2039:2088" ph="update posts... " />
-            <marker date="1502087749000" expanded="true" signature="2187:2216" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_08_07_052429_create_taggables_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -838,6 +821,23 @@
         <state relative-caret-position="285">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="267" column="2" lean-forward="true" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#22#0#PHP" expanded="true" />
+            <element signature="e#80#465#0#PHP" expanded="false" />
+            <marker date="1502087749000" expanded="true" signature="1304:1350" ph="insert into posts... " />
+            <marker date="1502087749000" expanded="true" signature="1448:1494" ph="insert into posts... " />
+            <marker date="1502087749000" expanded="true" signature="1631:1677" ph="insert into posts... " />
+            <marker date="1502087749000" expanded="true" signature="1871:1901" ph="select * fro... posts" />
+            <marker date="1502087749000" expanded="true" signature="2039:2088" ph="update posts... " />
+            <marker date="1502087749000" expanded="true" signature="2187:2216" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>
