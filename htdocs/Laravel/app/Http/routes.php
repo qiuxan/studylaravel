@@ -301,3 +301,7 @@ Route::get('/tag/post',function (){
    return $tag->posts;
 
 });
+
+/*CRUD application*/
+
+Route::resource('/posts','PostController');
