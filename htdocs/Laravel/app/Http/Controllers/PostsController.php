@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -44,6 +45,18 @@ class PostsController extends Controller
     {
         //
         return $request->all();
+
+       // Post::create($request->);
+
+
+//        $input=$request->all();
+//        $input['title']=$request->title;
+//        Post::create($request->all());
+
+
+        $post= new Post;
+        $post->title=$request->title;
+        $post->save();
     }
 
     /**
