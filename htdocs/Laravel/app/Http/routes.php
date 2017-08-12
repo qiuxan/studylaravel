@@ -304,4 +304,6 @@ Route::get('/tag/post',function (){
 
 /*CRUD application*/
 
-Route::resource('/posts','PostController');
+//Route::resource('posts','PostsController');
+
+Route::resource('posts','PostsController');

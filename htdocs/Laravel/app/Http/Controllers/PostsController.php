@@ -28,7 +28,10 @@ class PostsController extends Controller
     public function create()
     {
         //
-        return "method that creats things";
+//        return "method that creats things";
+
+        return  view('posts.create');
+
     }
 
     /**
@@ -40,6 +43,7 @@ class PostsController extends Controller
     public function store(Request $request)
     {
         //
+        return $request->all();
     }
 
     /**
