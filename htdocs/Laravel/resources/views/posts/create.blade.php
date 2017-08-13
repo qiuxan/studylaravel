@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('content')
+    <h1>Create post</h1>
 
     <form method="post" action="/laravel/public/posts">
         <input type="text"  name="title" placeholder="Enter title4">
