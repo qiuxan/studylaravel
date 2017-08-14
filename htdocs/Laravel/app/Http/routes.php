@@ -306,4 +306,18 @@ Route::get('/tag/post',function (){
 
 //Route::resource('posts','PostsController');
 
-Route::resource('posts','PostsController');
+
+//Route::resource('/posts','PostsController');
+
+//Route::group(['middleware'=>'web'], function(){
+//
+//    Route::resource('posts','PostsController');
+//
+//
+//});
+
+Route::group(['middlewareGroups' => ['web']], function () {
+
+    Route::resource('/posts','PostsController');
+
+});
