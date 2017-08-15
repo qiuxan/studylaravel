@@ -5,7 +5,15 @@
 
     {{--<form method="post" action="/laravel/public/posts">--}}
 
-    {!! Form::open(['method'=>'POST', 'action'=>'PostsController@store']) !!}
+    {!! Form::open(['method'=>'POST', 'action'=>'PostsController@store','files'=>true]) !!}
+
+
+
+
+
+
+
+
 
 
     <div class="form-group">
@@ -18,6 +26,15 @@
 
 
         {{csrf_field()}}
+
+
+    <div class="form-group">
+
+
+
+        {!! Form::file('file', ['class'=>'form-control']) !!}
+
+    </div>
 
 
     <div class="form-group">

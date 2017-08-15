@@ -8,6 +8,8 @@ class Post extends Model
 {
     //
 
+    public $directory='images/';
+
 //    protected $table='posts';
 //
 //    protected  $primaryKey='id';
@@ -15,8 +17,9 @@ class Post extends Model
     protected  $dates=[''];
     protected  $fillable=[
 
-    'title',
-    'content'
+        'title',
+        'content',
+        'path'
 
 ];
 
@@ -43,6 +46,16 @@ class Post extends Model
 
         return $query->orderBy('id','asc')->get();
 
+
+
+    }
+
+
+
+    public function getPathAttribute($value){
+
+
+        return $this->directory. $value;
 
 
     }
