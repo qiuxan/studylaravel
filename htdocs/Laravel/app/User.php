@@ -61,5 +61,19 @@ class User extends Model implements AuthenticatableContract,
 
     }
 
+    public function getNameAttribute($value){
+
+
+        return strtoupper($value);
+
+
+    }
+
+    public  function setNameAttribute($value){
+
+        $this->attributes['name'] =strtoupper($value);
+
+    }
+
 }
 
