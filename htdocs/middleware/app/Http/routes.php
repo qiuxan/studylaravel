@@ -14,15 +14,15 @@
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
-//    return view('welcome');
+   return view('welcome');
 
-    $user=Auth::user();
-
-
-    if($user->isAdmin()){
-
-        echo "this user is administrator"; 
-    }
+//    $user=Auth::user();
+//
+//
+//    if($user->isAdmin()){
+//
+//        echo "this user is administrator";
+//    }
 
 
 
@@ -34,9 +34,12 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/admin/user/roles',['middleware'=>['role','auth','web'],function(){
+Route::get('/admin/user/roles',['middleware'=>['web'],function(){
 
     return 'Middleware role';
 
 
 }]);
+
+
+Route::get('/admin','AdminController@index');
