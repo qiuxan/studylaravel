@@ -35,9 +35,25 @@ class HomeController extends Controller
 
 //        return session('peter');
 
-        $request->session()->forget('peter');
+//        $request->session()->forget('peter');
+//
+//        $request->session()->flush();
+//        return $request->session()->all();
 
-        $request->session()->flush();
-        return $request->session()->all();
+
+        /* how to use flash in session*/
+
+//        $request->session()->flash('message','post ha been created');
+
+//        return $request->session()->get('message');
+
+
+
+        /*keep session longer*/
+
+//        $request->session()->reflash();
+//
+//        $request->session()->keep('message');
+
     }
 }
