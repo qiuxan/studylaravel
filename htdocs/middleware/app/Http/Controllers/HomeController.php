@@ -28,6 +28,16 @@ class HomeController extends Controller
 //        return view('home');
 
 
+//        $request->session()->put(['xian'=>'master instructor']);
+
+
+//        session(['peter'=>'student']);
+
+//        return session('peter');
+
+        $request->session()->forget('peter');
+
+        $request->session()->flush();
         return $request->session()->all();
     }
 }
