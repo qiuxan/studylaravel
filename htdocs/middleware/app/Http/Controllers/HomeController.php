@@ -22,8 +22,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('home');
+//        $request->session(['xian'=>'master instructor']);
+//        return view('home');
+
+
+        return $request->session()->all();
     }
 }
