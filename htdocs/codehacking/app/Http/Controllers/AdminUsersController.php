@@ -69,7 +69,7 @@ class AdminUsersController extends Controller
     public function edit($id)
     {
         //
-        return view('admin.users.edit')l;
+        return view('admin.users.edit');
     }
 
     /**
