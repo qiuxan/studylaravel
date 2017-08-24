@@ -25,7 +25,7 @@ elixir(function(mix) {
 
 
 
-    ],' ./public/css/libs.js')
+    ],'./public/css/libs.css')
 
         .scripts([
 
