@@ -55,7 +55,15 @@ class AdminUsersController extends Controller
     {
         //
 
-        return $request->all();
+
+
+
+        User::create($request->all());
+
+        return redirect('/admin/users');
+
+       // return $request->all();
+        
 
     }
 
