@@ -73,7 +73,7 @@ class AdminUsersController extends Controller
 
 //        User::create($request->all());
 
-//        return redirect('/admin/users');
+        return redirect('/admin/users');
 
        // return $request->all();
 
@@ -103,7 +103,11 @@ class AdminUsersController extends Controller
     public function edit($id)
     {
         //
-        return view('admin.users.edit');
+
+        $roles=Role::lists('name','id')->all();
+
+        $user= User::findOrFail($id);
+        return view('admin.users.edit',compact('user','roles'));
     }
 
     /**
