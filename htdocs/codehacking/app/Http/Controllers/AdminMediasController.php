@@ -41,4 +41,21 @@ class AdminMediasController extends Controller
 
 
     }
+
+
+    public function  destroy($id){
+
+        $photo=Photo::findOrFail($id);
+
+        $img_path=$photo->file;
+//        return $img_path;
+        $img_path= str_replace('codehacking/public/','',$img_path);
+        unlink(public_path().$img_path);
+
+        $photo->delete();
+
+
+        return redirect('admin/media');
+
+    }
 }
