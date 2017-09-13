@@ -153,4 +153,10 @@ class AdminPostsController extends Controller
 
 //        return 'worked';
     }
+
+    public  function post($id){
+
+        $post= Post::findOrFail($id);
+        return $post;
+    }
 }
