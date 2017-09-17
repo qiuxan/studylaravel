@@ -12,16 +12,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="blog-post.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/blog-post.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,8 +27,40 @@
       <file leaf-file-name="post.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+            <state relative-caret-position="479">
+              <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostCommentsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -94,26 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="927">
-              <caret line="358" column="13" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -164,7 +166,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_03_130905_create_posts_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
@@ -179,12 +180,13 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostCommentController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/comments/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/blog-post.blade.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" />
         <option value="$PROJECT_DIR$/resources/views/post.blade.php" />
       </list>
     </option>
@@ -479,46 +481,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codehacking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codehacking" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codehacking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codehacking" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -622,12 +584,12 @@
       <workItem from="1503318959303" duration="14431000" />
       <workItem from="1503662558555" duration="1711000" />
       <workItem from="1503666497441" duration="9134000" />
-      <workItem from="1503919997296" duration="67289000" />
+      <workItem from="1503919997296" duration="70808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92565000" />
+    <option name="totallyTimeSpent" value="96084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1050" y="23" width="1050" height="1623" extended-state="0" />
@@ -696,14 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -811,7 +765,7 @@
         <state relative-caret-position="915">
           <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
+            <element signature="e#40#54#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -904,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCommentController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -924,14 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1058,10 +996,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+        <state relative-caret-position="479">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding />
         </state>
       </provider>

@@ -31,14 +31,21 @@
 <p>{{$post->body}}</p>
 <hr>
 
+@if(Sessiion::has('comment_message'))
+
+
+    @endif
+
+
 <!-- Blog Comments -->
 
 <!-- Comments Form -->
 <div class="well">
     <h4>Leave a Comment:</h4>
 
-    {!! Form::open(['method'=>'POST','action'=>'AdminPostsController@store','files'=>true]) !!}
+    {!! Form::open(['method'=>'POST','action'=>'PostCommentsController@store','files'=>true]) !!}
 
+    <input type="hidden" name="post_id" value="{{$post->id}}">
     <div class="form-group">
         {!! Form::label('body','Body:') !!}
         {!! Form::textarea('body',null,['class'=>'form-control','rows'=>3]) !!}
