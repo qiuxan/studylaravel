@@ -31,10 +31,11 @@
 <p>{{$post->body}}</p>
 <hr>
 
-@if(Sessiion::has('comment_message'))
+@if(Session::has('comment_message'))
 
+    {{session('comment_message')}}
 
-    @endif
+@endif
 
 
 <!-- Blog Comments -->
