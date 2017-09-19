@@ -16,7 +16,10 @@
             <th>Category</th>
             <th>Title</th>
             <th>Body</th>
-            <th>Create</th>
+            <th>Post Link</th>
+
+            <th>Comments</th>
+            <th>Created at</th>
             <th>Update</th>
         </tr>
         </thead>
@@ -49,7 +52,7 @@
                     <td>{{str_limit($post->body,30)}}</td>
 
                     <td><a href="{{route('home.post',$post->id)}}">View Post</a></td>
-                    <td><a href="{{route('admin.comments.index')}}">View Comments</a></td>
+                    <td><a href="{{route('admin.comments.show',$post->id)}}">View Comments</a></td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
                     <td>{{$post->updated_at->diffForHumans()}}</td>
 
