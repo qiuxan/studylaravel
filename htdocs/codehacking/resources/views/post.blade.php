@@ -93,10 +93,7 @@
 
                     @foreach($comment->replies as $reply)
 
-                        <div class="comment-reply-container">
-                            <button class="toggle-reply btn btn-primary pull-right">
-                                Reply
-                            </button>
+
                             <!-- Nested Comment -->
                             <div id="nested-comment" class="media">
                                 <a class="pull-left" href="#">
@@ -112,24 +109,40 @@
                                     </p>
                                 </div>
 
-                                {!! Form::open(['method'=>'POST','action'=>'CommentRepliesController@createReply']) !!}
 
-                                <input type="hidden" name="comment_id" value="{{$comment->id}}">
-                                <div class="form-group">
-                                    {!! Form::label('body','Body:') !!}
-                                    {!! Form::textarea('body',null,['class'=>'form-control','rows'=>1]) !!}
-                                </div>
 
-                                <div class="form-group">
 
-                                    <div class="form-group">
-                                        {!! Form::submit('Submit Commit', ['class'=>'btn btn-primary']) !!}
+
+
+                                <div class="comment-reply-container">
+
+
+
+                                    <button class="toggle-reply btn btn-primary pull-right">Reply </button>
+
+
+                                    <div class="comment-reply">
+
+                                        {!! Form::open(['method'=>'POST','action'=>'CommentRepliesController@createReply']) !!}
+
+                                        <input type="hidden" name="comment_id" value="{{$comment->id}}">
+                                        <div class="form-group">
+                                            {!! Form::label('body','Body:') !!}
+                                            {!! Form::textarea('body',null,['class'=>'form-control','rows'=>1]) !!}
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <div class="form-group">
+                                                {!! Form::submit('Submit Commit', ['class'=>'btn btn-primary']) !!}
+                                            </div>
+                                        </div>
+
+
+
+                                        {!! Form::close() !!}
+
                                     </div>
-                                </div>
-
-
-
-                                {!! Form::close() !!}
 
 
                             </div>
@@ -155,6 +168,8 @@
     <script>
 
         $(".comment-reply-container .toggle-reply").click(function () {
+
+            $(this).next().slideToggle('slow');
 
         });
 
