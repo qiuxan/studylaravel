@@ -78,7 +78,7 @@
                     <td>
 
 
-                        {!! Form::open(['method'=>'DELETE', 'action'=> ['PostCommentsController@destroy', $comment->id]]) !!}
+                        {!! Form::open(['method'=>'DELETE', 'action'=> ['PostCommentsController@destroy', $reply->id]]) !!}
 
 
                         <div class="form-group">
