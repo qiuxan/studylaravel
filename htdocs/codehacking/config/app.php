@@ -151,6 +151,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+
 
         /*
          * Application Service Providers...
