@@ -43,6 +43,9 @@ Route::group(['middleware'=>'admin'],function (){
 
     ]]);
 
+    Route::get('/post/{id}',['as'=>'home.post', 'uses'=>'AdminPostsController@post']);
+
+
     Route::resource('admin/posts','AdminPostsController',['names'=>[
 
         'index'=>'admin.posts.index',
@@ -78,7 +81,8 @@ Route::group(['middleware'=>'admin'],function (){
         'index'=>'admin.comments.index',
         'create'=>'admin.comments.create',
         'store'=>'admin.comments.store',
-        'edit'=>'admin.comments.edit'
+        'edit'=>'admin.comments.edit',
+        'show'=>'admin.comments.show'
 
 
     ]]);
