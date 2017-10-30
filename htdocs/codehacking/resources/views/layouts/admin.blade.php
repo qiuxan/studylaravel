@@ -162,7 +162,7 @@
                                 <a href="{{route('admin.categories.index')}}">All Categories</a>
                             </li>
 
-                           
+
 
                         </ul>
                         <!-- /.nav-second-level -->
