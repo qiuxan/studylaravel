@@ -3,7 +3,7 @@
 @section('content')
 
     @if($photos)
-        <form action="/codehacking/public/delete/media" method="post">
+        <form action="delete/media" method="post">
             {{csrf_field()}}
 
             {{method_field('delete')}}
@@ -11,13 +11,15 @@
 
                 <select name="checkBoxArray" id="">
 
-                    <option value="Delete">Delete</option>
+                    <option value="">Delete</option>
                 </select>
             </div>
 
             <div class="form-group">
 
-                <input type="submit" class="btn-primary">
+                <input type="submit" name="delete_all" class="btn-primary">
+
+
             </div>
             <table class="table">
                 <thead>
@@ -43,17 +45,20 @@
 
                         <td>
 
-                            {!! Form::open(['method'=>'Delete','action'=>['AdminMediasController@destroy',$photo->id]]) !!}
+                            {{--{!! Form::open(['method'=>'Delete','action'=>['AdminMediasController@destroy',$photo->id]]) !!}--}}
 
+                            <input type="hidden" name="photo" value="{{$photo->id}}">
 
 
 
                             <div class="form-group">
-                                {!! Form::submit('Delete', ['class'=>'btn btn-danger']) !!}
+{{--                                {!! Form::submit('Delete', ['class'=>'btn btn-danger']) !!}--}}
+
+                                <input type="submit" name="delete_single" value="Delete" class="btn-danger btn">
                             </div>
 
 
-                            {!! Form::close() !!}
+{{--                            {!! Form::close() !!}--}}
 
 
 
